@@ -49,7 +49,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(54, 20);
             this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.Saisie);
+            this.textBox1.TextChanged += new System.EventHandler(this.EventSaisie);
             // 
             // panel1
             // 
@@ -58,7 +58,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(389, 334);
             this.panel1.TabIndex = 3;
-            
             // 
             // Echiquier
             // 
